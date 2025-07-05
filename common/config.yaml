@@ -1,0 +1,16 @@
+model:
+  provider: openai
+  model_name: qwen-plus-latest
+  step1_temperature: 0.2
+  step2_temperature: 0.8
+  base_url:
+  api_key:
+
+doc_repo:
+  base_url: 远程代码仓地址
+  doc_repo_path: 本地文件路径
+  module: 文档模块名
+
+prompt:
+  step1:  prompt_step1_v0.8.txt
+  step2:  prompt_step2_v0.2.txt
